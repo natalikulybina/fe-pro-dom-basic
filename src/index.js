@@ -1,4 +1,5 @@
 export const paintCards = () => {
+
   let elem = document.querySelectorAll('li');
 
   for (let index = 0; index < elem.length; index++) {
@@ -10,6 +11,7 @@ export const paintCards = () => {
 };
 
 export const findElement = () => {
+  
   let elem = document.querySelector('li');
   let elements = document.querySelectorAll('li');
 
